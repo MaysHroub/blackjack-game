@@ -11,9 +11,10 @@ let playerEl = document.getElementById("player-el")
 
 let player = {
     name: "Mays Al-Reem",
-    chips: 145
+    chips: getRandomCredits()
 }
 playerEl.textContent = player.name + ": $" + player["chips"]
+
 
 
 function startGame() {
@@ -62,4 +63,9 @@ function getRandomCard() {
         return 11
     else 
         return randomNumber
+}
+
+
+function getRandomCredits() {
+    return Math.floor(Math.random() * 100) + 1
 }
