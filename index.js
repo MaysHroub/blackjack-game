@@ -8,6 +8,7 @@ let sumEl = document.getElementById("sum-el")
 // let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.getElementById("cards-el")
 let playerEl = document.getElementById("player-el")
+let startBtn = document.getElementById("start-btn")
 
 let player = {
     name: "Mays Al-Reem",
@@ -18,6 +19,7 @@ playerEl.textContent = player.name + ": $" + player["chips"]
 
 
 function startGame() {
+    startBtn.textContent = "RESTART GAME"
     let firstCard = getRandomCard()
     let secondCard = getRandomCard()
     sum = firstCard + secondCard
