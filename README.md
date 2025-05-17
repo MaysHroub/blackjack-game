@@ -6,7 +6,7 @@ You can access the deployed project [here](https://beautiful-cannoli-649a17.netl
 
 Oh, and this is my second frontend project in my *"developing my frontend skills to become a full-stack developer so I can land a good job"* journey. 
 
-#### This part of the couse illustrated several topics, including:
+### This part of the couse illustrated several topics, including:
 - How to declare and use arrays
 - How to declare and use objects
 - booleans
